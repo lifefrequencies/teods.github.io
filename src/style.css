@@ -224,11 +224,11 @@ button {
   border-radius: 5px;
 }
 
-.gpt3__header {
+.ca__header {
   display: flex;
 }
 
-.gpt3__header-content {
+.ca__header-content {
   flex: 1;
   display: flex;
   justify-content: center;
@@ -238,7 +238,7 @@ button {
   margin-right: 5rem;
 }
 
-.gpt3__header-content h1 {
+.ca__header-content h1 {
   font-family: var(--font-family);
   font-weight: 800;
   font-size: 62px;
@@ -264,7 +264,7 @@ button {
     opacity: 1;
   }
 }
-.gpt3__header-content p {
+.ca__header-content p {
   font-family: var(--font-family);
   font-style: normal;
   font-weight: normal;
@@ -275,7 +275,7 @@ button {
   margin-top: 1.5rem;
 }
 
-.gpt3__header-content__people {
+.ca__header-content__people {
   width: 100%;
   display: flex;
   justify-content: flex-start;
@@ -283,12 +283,12 @@ button {
   margin-bottom: 1rem;
 }
 
-.gpt3__header-content__people img {
+.ca__header-content__people img {
   width: 181.79px;
   height: 38px;
 }
 
-.gpt3__header-content__people p {
+.ca__header-content__people p {
   margin: 0 0 0 1rem;
   font-family: var(--font-family);
   font-weight: 400;
@@ -299,7 +299,7 @@ button {
   display: flex;
 }
 
-.gpt3__header-image {
+.ca__header-image {
   flex: 1;
   display: flex;
   justify-content: center;
@@ -323,48 +323,48 @@ button {
     opacity: 1;
   }
 }
-.gpt3__header-image img {
+.ca__header-image img {
   width: 100%;
   height: 100%;
   margin-top: 0;
 }
 
 @media screen and (max-width: 1280px) {
-  .gpt3__header-content {
+  .ca__header-content {
     margin: 0 0 3rem;
   }
 
-  .gpt3__header-image img {
+  .ca__header-image img {
     width: 100%;
     height: 100%;
     margin-top: 0;
   }
 
-  .gpt3__header-content h1 {
+  .ca__header-content h1 {
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 35px;
     letter-spacing: -0.5;
   }
-  .gpt3__header-content p {
+  .ca__header-content p {
     font-size: 15px;
   }
 }
 
 @media screen and (max-width: 1050px) {
-  .gpt3__header {
+  .ca__header {
     flex-direction: column;
   }
-  .gpt3__header-content {
+  .ca__header-content {
     margin: 0 0 3rem;
   }
-  .gpt3__header-image img {
+  .ca__header-image img {
     width: 100%;
     height: 100%;
     margin-top: 0;
   }
 
-  .gpt3__header-content h1 {
+  .ca__header-content h1 {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 40px;
@@ -372,63 +372,63 @@ button {
   }
 }
 @media screen and (max-width: 700px) {
-  .gpt3__header {
+  .ca__header {
     flex-direction: column;
   }
-  .gpt3__header h1 {
+  .ca__header h1 {
     font-size: 25px;
     line-height: 31px;
   }
-  .gpt3__header p {
+  .ca__header p {
     font-size: 15px;
     line-height: 23px;
   }
-  .gpt3__header-content__people {
+  .ca__header-content__people {
     flex-direction: column;
   }
-  .gpt3__header-content__people p {
+  .ca__header-content__people p {
     margin: 0;
   }
-  .gpt3__header-content__input input,
-  .gpt3__header-content__input button {
+  .ca__header-content__input input,
+  .ca__header-content__input button {
     font-size: 16px;
     line-height: 24px;
   }
 }
 
 @media screen and (max-width: 650px) {
-  .gpt3__header h1 {
+  .ca__header h1 {
     font-size: 25px;
     line-height: 31px;
   }
-  .gpt3__header p {
+  .ca__header p {
     font-size: 15px;
     line-height: 23px;
   }
-  .gpt3__header-content__people {
+  .ca__header-content__people {
     flex-direction: column;
   }
-  .gpt3__header-content__people p {
+  .ca__header-content__people p {
     margin: 0;
   }
-  .gpt3__header-content__input input,
-  .gpt3__header-content__input button {
+  .ca__header-content__input input,
+  .ca__header-content__input button {
     font-size: 16px;
     line-height: 24px;
   }
 }
 
 @media screen and (max-width: 490px) {
-  .gpt3__header h1 {
+  .ca__header h1 {
     font-size: 23px;
     line-height: 30px;
   }
-  .gpt3__header p {
+  .ca__header p {
     font-size: 14px;
     line-height: 21px;
   }
-  .gpt3__header-content__input input,
-  .gpt3__header-content__input button {
+  .ca__header-content__input input,
+  .ca__header-content__input button {
     font-size: 12px;
     line-height: 16px;
   }
@@ -556,7 +556,7 @@ a {
   }
 }
 
-.gpt3__footer {
+.ca__footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -565,21 +565,21 @@ a {
   background: var(--color-footer);
 }
 
-.gpt3__footer-heading {
+.ca__footer-heading {
   width: 100%;
   text-align: center;
 
   margin-bottom: 3rem;
 }
 
-.gpt3__footer-heading h1 {
+.ca__footer-heading h1 {
   font-family: var(--font-family);
   font-weight: 800;
   font-size: 64px;
   line-height: 75px;
 }
 
-.gpt3__footer-btn {
+.ca__footer-btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -592,7 +592,7 @@ a {
   cursor: pointer;
 }
 
-.gpt3__footer-btn p {
+.ca__footer-btn p {
   font-size: 18px;
   font-family: var(--font-family);
   line-height: 21px;
@@ -600,7 +600,7 @@ a {
   word-spacing: 2px;
 }
 
-.gpt3__footer-links {
+.ca__footer-links {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -611,37 +611,37 @@ a {
   text-align: left;
 }
 
-.gpt3__footer-links div {
+.ca__footer-links div {
   width: 250px;
   margin: 1rem;
 }
 
-.gpt3__footer-links_logo {
+.ca__footer-links_logo {
   display: flex;
   flex-direction: column;
 }
 
-.gpt3__footer-links_logo img {
+.ca__footer-links_logo img {
   width: 118px;
   height: 30px;
 
   margin-bottom: 1rem;
 }
 
-.gpt3__footer-links_logo p {
+.ca__footer-links_logo p {
   font-family: var(--font-family);
   font-size: 12px;
   line-height: 15px;
   color: #fff;
 }
 
-.gpt3__footer-links_div {
+.ca__footer-links_div {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
 }
 
-.gpt3__footer-links_div h4 {
+.ca__footer-links_div h4 {
   font-size: 14px;
   line-height: 17px;
   font-family: var(--font-family);
@@ -650,7 +650,7 @@ a {
   margin-bottom: 0.9rem;
 }
 
-.gpt3__footer-links_div p {
+.ca__footer-links_div p {
   font-size: 12px;
   line-height: 15px;
   font-family: var(--font-family);
@@ -660,13 +660,13 @@ a {
   cursor: pointer;
 }
 
-.gpt3__footer-copyright {
+.ca__footer-copyright {
   margin-top: 2rem;
   text-align: center;
   width: 100%;
 }
 
-.gpt3__footer-copyright p {
+.ca__footer-copyright p {
   font-size: 12px;
   font-family: var(--font-family);
   line-height: 15px;
@@ -674,30 +674,30 @@ a {
 }
 
 @media screen and (max-width: 850px) {
-  .gpt3__footer-heading h1 {
+  .ca__footer-heading h1 {
     font-size: 44px;
     line-height: 50px;
   }
 }
 
 @media screen and (max-width: 550px) {
-  .gpt3__footer-heading h1 {
+  .ca__footer-heading h1 {
     font-size: 34px;
     line-height: 42px;
   }
 
-  .gpt3__footer-links div {
+  .ca__footer-links div {
     margin: 1rem 0;
   }
 
-  .gpt3__footer-btn p {
+  .ca__footer-btn p {
     font-size: 14px;
     line-height: 20px;
   }
 }
 
 @media screen and (max-width: 400px) {
-  .gpt3__footer-heading h1 {
+  .ca__footer-heading h1 {
     font-size: 27px;
     line-height: 38px;
   }
@@ -778,10 +778,10 @@ a {
 .wrapper .facebook:hover .tooltip:before {
   background: #3b5999;
 }
+
 .tooltip,
 a {
-  padding: 1px;
-  margin: 0;
+  padding: 0.5px;
 }
 
 .wrapper .instagram:hover span,
@@ -794,14 +794,14 @@ a {
 .wrapper .youtube:hover .tooltip:before {
   background: #de463b;
 }
-.gpt3__brand {
+.ca__brand {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
 
-.gpt3__brand div {
+.ca__brand div {
   flex: 1;
   max-width: 150px;
   min-width: 120px;
@@ -818,3 +818,29 @@ a {
 @media screen and (max-width: 550px){}
 @media screen and (max-width: 390px){}
 @media screen and (max-width: 280px){} */
+
+.donation-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* align-items: center; */
+
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+  flex-direction: column;
+  align-items: center;
+}
+.iframee {
+  max-width: 500px;
+  min-width: 310px;
+  max-height: none !important;
+}
+
+@media screen and (max-width: 680px) {
+  .donation-box {
+    width: 80%;
+    margin-left: 9%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
