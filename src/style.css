@@ -26,6 +26,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   justify-content: space-between;
+  padding: 4rem 4rem;
   
 }
 
@@ -42,7 +43,7 @@ nav {
   text-transform: capitalize;
   align-items: center;
   font-size: 17px;
-  padding: 4rem 4rem;
+ 
 }
 
 .nav-links li a {
