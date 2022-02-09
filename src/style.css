@@ -51,7 +51,7 @@ li,
 a {
   text-decoration: none;
   font-size: 16px;
-  margin: 6px;
+  margin: ;
   font-family: var(--font-family);
   letter-spacing: 3px;
   color: white;
@@ -165,7 +165,7 @@ button {
   }
   .wrapper,
   .icon {
-    width: 30px;
+    width: 24px;
   }
 
   .logo {
@@ -426,6 +426,10 @@ button {
   .gpt3__header-content__input button {
     font-size: 12px;
     line-height: 16px;
+  }
+  .wrapper,
+  .icon {
+    width: 24px;
   }
 }
 /* 
@@ -704,7 +708,7 @@ a {
   justify-content: space-between;
 }
 .wrapper .icon {
-  margin: 0 20px;
+  margin: 0 12px;
   text-align: center;
   cursor: pointer;
   display: flex;
@@ -717,8 +721,8 @@ a {
 }
 .wrapper .icon span {
   display: block;
-  height: 60px;
-  width: 60px;
+  height: 40px;
+  width: 40px;
   background: #fff;
   border-radius: 50%;
   position: relative;
@@ -727,7 +731,7 @@ a {
   transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 .wrapper .icon span i {
-  line-height: 60px;
+  line-height: 40px;
   font-size: 25px;
 }
 .wrapper .icon .tooltip {
