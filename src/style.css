@@ -36,9 +36,8 @@ nav {
 }
 
 .nav-links {
-  position: absolute;
-  margin-left: 40%;
-  width: 40%;
+  position: relative;
+  /* width: 20%; */
   list-style: none;
   display: flex;
   justify-content: space-around;
@@ -47,13 +46,18 @@ nav {
   font-size: 17px;
 }
 
-.nav-links li a {
+.nav-links,
+li,
+a {
   text-decoration: none;
-  font-size: 17px;
+  font-size: 16px;
+  margin: 6px;
   font-family: var(--font-family);
   letter-spacing: 3px;
   color: white;
   text-transform: capitalize;
+  justify-content: space-between;
+  align-items: center;
 }
 .burger div {
   color: white;
@@ -73,6 +77,8 @@ nav {
   a {
     align-items: center;
     padding: 1rem 0.5rem;
+    justify-content: space-between;
+    align-items: center;
   }
   .nav-links {
     align-items: center;
@@ -154,7 +160,7 @@ button {
     transform: translateX(100%);
     align-items: center;
   }
-  .nav-links li {
+  .nav-links .nav-links li {
     opacity: 0;
   }
   .wrapper,
