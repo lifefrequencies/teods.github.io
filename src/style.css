@@ -165,7 +165,7 @@ button {
   }
   .wrapper,
   .icon {
-    width: 24px;
+    width: 15px;
   }
 
   .logo {
@@ -704,7 +704,7 @@ a {
   justify-content: space-between;
 }
 .wrapper .icon {
-  margin: 0 20px;
+  margin: 0 15px;
   text-align: center;
   cursor: pointer;
   display: flex;
@@ -717,8 +717,8 @@ a {
 }
 .wrapper .icon span {
   display: block;
-  height: 60px;
-  width: 60px;
+  height: 40px;
+  width: 40px;
   background: #fff;
   border-radius: 50%;
   position: relative;
@@ -727,7 +727,7 @@ a {
   transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 .wrapper .icon span i {
-  line-height: 60px;
+  line-height: 40px;
   font-size: 25px;
 }
 .wrapper .icon .tooltip {
