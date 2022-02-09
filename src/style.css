@@ -65,7 +65,9 @@ nav {
 }
 
 @media screen and (max-width: 1633px) {
-  .nav-links li a {
+  .nav-links,
+  li,
+  a {
     align-items: center;
     padding: 1rem 0.5rem;
   }
@@ -91,7 +93,9 @@ button {
 }
 
 @media screen and (max-width: 1280px) {
-  .nav-links li a {
+  .nav-links,
+  li,
+  a {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -108,7 +112,7 @@ button {
   .nav-links,
   li,
   a {
-    padding: 1rem 0.2rem;
+    padding: 1rem 0.1rem;
 
     /* align-items: center; */
 
@@ -189,8 +193,6 @@ button {
 }
 .close .line3 {
   transform: rotate(45deg) translate(-6px, -7px);
-}
-.donation-btn {
 }
 
 .donation-btn,
